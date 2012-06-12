@@ -3,7 +3,7 @@ require 'bundler'
 
 Bundler.require
 
-require 'lib/weather'
+require File.expand_path 'lib/app'
 
 set :run, false
 set :environment, :production
