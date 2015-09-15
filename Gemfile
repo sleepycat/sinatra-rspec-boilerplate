@@ -5,7 +5,6 @@ gem 'rake'
 
 group :development do
   gem "sinatra-reloader"
-  gem "ruby-debug19"
 end
 
 group :test do
